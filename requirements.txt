@@ -2,3 +2,5 @@ streamlit
 tensorflow
 numpy
 nltk
+keras
+h5py
