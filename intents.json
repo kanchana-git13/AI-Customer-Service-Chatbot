@@ -1,0 +1,271 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Anyone there?",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! Welcome. How may I help you?",
+        "Greetings! What can I do for you?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "I am leaving"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day.",
+        "Take care!",
+        "Thank you for visiting."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+
+    {
+      "tag": "about_company",
+      "patterns": [
+        "Tell me about your company",
+        "Who are you",
+        "What services do you provide",
+        "About your business"
+      ],
+      "responses": [
+        "We provide customer support for products and services.",
+        "We are committed to providing excellent customer service."
+      ]
+    },
+
+    {
+      "tag": "business_hours",
+      "patterns": [
+        "What are your working hours",
+        "When are you open",
+        "Office timings",
+        "Support timings"
+      ],
+      "responses": [
+        "Our support team is available Monday to Friday from 9 AM to 6 PM."
+      ]
+    },
+
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact support",
+        "Customer care number",
+        "Support email",
+        "Talk to an agent"
+      ],
+      "responses": [
+        "You can contact our support team through email or our helpline."
+      ]
+    },
+
+    {
+      "tag": "track_order",
+      "patterns": [
+        "Track my order",
+        "Where is my order",
+        "Order status",
+        "Check my shipment",
+        "Has my order shipped"
+      ],
+      "responses": ["Please provide your order ID so I can help you track it."]
+    },
+
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "Cancel my order",
+        "I want to cancel",
+        "Delete my order",
+        "Stop my order"
+      ],
+      "responses": [
+        "Please provide your order number. We'll check if cancellation is possible."
+      ]
+    },
+
+    {
+      "tag": "refund",
+      "patterns": [
+        "I want a refund",
+        "Refund my money",
+        "How do I get a refund",
+        "Return payment"
+      ],
+      "responses": ["Refunds are processed after verifying your request."]
+    },
+
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy",
+        "Can I return a product",
+        "Return item",
+        "How many days for return"
+      ],
+      "responses": [
+        "Products can usually be returned within 30 days of delivery."
+      ]
+    },
+
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "Payment failed",
+        "Unable to pay",
+        "Transaction failed",
+        "Payment error"
+      ],
+      "responses": [
+        "Sorry about that. Please try again or use another payment method."
+      ]
+    },
+    {
+      "tag": "shipping_charges",
+      "patterns": [
+        "Shipping charges",
+        "Delivery cost",
+        "Shipping fee",
+        "Is delivery free"
+      ],
+      "responses": ["Shipping charges depend on your location and order value."]
+    },
+
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "How long is delivery",
+        "Delivery time",
+        "When will it arrive",
+        "Estimated delivery"
+      ],
+      "responses": ["Standard delivery usually takes 3-7 business days."]
+    },
+
+    {
+      "tag": "account_login",
+      "patterns": [
+        "I can't login",
+        "Login issue",
+        "Unable to sign in",
+        "Password incorrect"
+      ],
+      "responses": ["Please verify your credentials or reset your password."]
+    },
+
+    {
+      "tag": "reset_password",
+      "patterns": [
+        "Forgot password",
+        "Reset password",
+        "Change password",
+        "Recover account"
+      ],
+      "responses": [
+        "Click 'Forgot Password' on the login page to reset your password."
+      ]
+    },
+
+    {
+      "tag": "change_address",
+      "patterns": [
+        "Change delivery address",
+        "Update address",
+        "Modify shipping address"
+      ],
+      "responses": [
+        "Please provide your order ID so we can update the address if the order hasn't shipped."
+      ]
+    },
+
+    {
+      "tag": "product_availability",
+      "patterns": [
+        "Is this product available",
+        "In stock",
+        "Product availability",
+        "Do you have this item"
+      ],
+      "responses": [
+        "Please provide the product name and I'll check its availability."
+      ]
+    },
+
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Any discounts",
+        "Coupon code",
+        "Offers available",
+        "Promotions"
+      ],
+      "responses": ["Current offers can be found on our promotions page."]
+    },
+
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I want to complain",
+        "Poor service",
+        "Bad experience",
+        "I am unhappy"
+      ],
+      "responses": [
+        "We're sorry for the inconvenience. Please describe your issue."
+      ]
+    },
+
+    {
+      "tag": "fallback",
+      "patterns": ["asdfgh", "random text", "I don't know", "What", "??"],
+      "responses": [
+        "I'm sorry, I didn't understand that.",
+        "Could you please rephrase your question?",
+        "Can you explain that differently?"
+      ]
+    },
+
+    {
+      "tag": "provide_orpython.der_id",
+      "patterns": [
+        "ORD1001",
+        "ORD1002",
+        "ORDER56789",
+        "My order ID is ORD1001",
+        "My order ID is ORD1002",
+        "My order number is ORDER56789",
+        "Here is my order ID ORD1001",
+        "Track ORD1001",
+        "Order ID ORD1001",
+        "My order is ORD1001"
+      ],
+      "responses": [
+        "Thank you. Your order is currently out for delivery and is expected to arrive today.",
+        "Your order has been shipped and will arrive within 2–3 business days.",
+        "Your order has been successfully dispatched and is on its way.",
+        "Thank you for providing your order ID. Your shipment is currently in transit."
+      ]
+    }
+  ]
+}
